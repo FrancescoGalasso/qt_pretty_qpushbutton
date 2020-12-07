@@ -3,6 +3,8 @@ This sample project wants to show how QLabel and QPushButton work as clickable a
 
 ## Description
 
+![Imgur Image](http://imgur.com/a/tpGyNcj)
+
 The sample app shows 3 clickable areas:
 * a Custom QLabel (called QLabelClickable)
 * a QPushButton

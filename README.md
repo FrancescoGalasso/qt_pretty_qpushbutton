@@ -1,16 +1,16 @@
 # qt_pretty_qpushbutton
-sample app showing Custom QLabelClickable, QPushButton and QPushButton setted like the QLabelClickable
+This sample project wants to show how QLabel and QPushButton work as clickable areas
 
 ## Description
 
 The sample app shows 3 clickable areas:
-* the first is a Custom QLabel (called QLabelClickable)
-* the second is a normal QPushButton
-* the third from a QPushButton that was created to look like a QLabel.
+* a Custom QLabel (called QLabelClickable)
+* a QPushButton
+* a second QPushButton that was created to look like a QLabel.
 
-The particularities of the latter QPushButton are made up of:
-1. Flat property ([more](https://doc.qt.io/qt-5/qpushbutton.html#flat-prop))
-2. StyleSheet ([more](https://doc.qt.io/qt-5/stylesheet-examples.html#style-sheet-usage))
+The second QPushButton is characterized by:
+1. property Flat ([more](https://doc.qt.io/qt-5/qpushbutton.html#flat-prop))
+2. property StyleSheet ([more](https://doc.qt.io/qt-5/stylesheet-examples.html#style-sheet-usage))
 
 
 ## Video

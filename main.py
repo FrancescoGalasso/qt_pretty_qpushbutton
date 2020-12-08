@@ -9,7 +9,6 @@ class QLabelClickable(QtWidgets.QLabel):
     def __init__(self, parent=None):
         super(QLabelClickable, self).__init__(parent)
 
-        self.setObjectName('obj_1')
         self.clicked = False
         self.parent = parent
         # print(f'parent: {parent}')        # parent: <__main__.MyWindow object at 0x7fe8b6f7e430>
@@ -61,7 +60,6 @@ class MyWindow(QMainWindow):
         self.base_btn.setText("I am a button !")
         self.base_btn.move(50,120)
         self.base_btn.setToolTip('This is a QPushButton')
-        self.base_btn.setObjectName('obj_2')
         base_btn_class_name = self.base_btn.metaObject().className()
         self.base_btn.clicked.connect(lambda: self.on_click(index=2, klass=base_btn_class_name))
 
@@ -85,7 +83,6 @@ class MyWindow(QMainWindow):
             }
             ''') 
         self.pretty_btn.setToolTip('This is a QPushButton shown like a QLabel')
-        self.pretty_btn.setObjectName('obj_3')
         pretty_btn_class_name = self.pretty_btn.metaObject().className()
         self.pretty_btn.clicked.connect(lambda: self.on_click(index=3, klass=pretty_btn_class_name))
 
